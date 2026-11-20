@@ -9,7 +9,7 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert response.json() == {"message": "FastAPI application running"}
+    assert response.json() == {"message": "FastAPI application running and working"}
 
 
 def test_about():
