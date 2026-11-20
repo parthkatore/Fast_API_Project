@@ -5,7 +5,7 @@ app = FastAPI(title="Docker CI Learning Project")
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI application running"}
+    return {"message": "FastAPI application running and working"}
 
 
 @app.get("/about")
